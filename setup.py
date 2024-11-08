@@ -2,12 +2,10 @@ import boto3
 
 
 #Initialize resources from AWS
-
-dynamodb = boto3.resources('dynamodb')
+dynamodb = boto3.resource('dynamodb')
 s3 = boto3.resource('s3')
 
 #Create a DynamoDB table
-
 def create_dynamodb_table():
 	table = dynamodb.create_table(
 		TableName='Movies',

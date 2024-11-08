@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Inception",
+		"releaseYear": "2010",
+		"genre": "Science Fiction, Action",
+		"coverUrl": "https://your-s3-bucket.s3.amazonaws.com/inception.jpg"
+	},
+
+	{
+	        "title": "The Shawshank Redemption",
+	        "releaseYear": "1994",
+	        "genre": "Drama, Crime",
+	        "coverUrl": "https://your-s3-bucket.s3.amazonaws.com/shawshank-redemption.jpg"
+	},
+
+	{
+	        "title": "The Dark Knight",
+	        "releaseYear": "2008",
+	        "genre": "Action, Crime, Drama",
+	        "coverUrl": "https://your-s3-bucket.s3.amazonaws.com/dark-knight.jpg"
+	}
+]	

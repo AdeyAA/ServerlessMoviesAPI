@@ -38,8 +38,6 @@
 	`git clone https://github.com/AdeyAA/ServerlessMoviesAPI.git`
 	`cd ServerlessMoviesAPI`
 	
-	- Install Dependencies:
-	`pip install -r requirements.txt
 
 - Setting up AWS resources
 	- Create IAM User: Make sure that you have an IAM user that has the necessary permissions for DynamoDB, S3, Lambda, and API Gateway
@@ -48,7 +46,7 @@
 
 - Upload Movie Data: Prepare your movie data (csv/json) and upload it to the DynamoDB table.
 
-- Store Images in S3: Upload a movie cover imagess to an S3 bucket.
+- Store Images in S3: Upload a movie cover images to an S3 bucket.
 
 - Deploy Serverless Functions: Deploy the serverless functions using AWS Lambda
 
